@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+    <link rel="stylesheet" href="stylesheet.css">
+    <title>Who's My World Cup team?</title>
+  </head>
+
+  <body id="whole">
+    <div class="wrapper">
+    <h1>World Cup 2018</h1>
+    <h4 class="jones">You must choose... But choose your team wisely. For your true team will bring you joy -- the false team will take it from you.</h4>
+  </div>
+    <!--- Need to add side notes like Grantland-->
+
+    <div class="pictures">
+      <div class="flag">
+        <img class="trophy" src="img/trophy.png" alt="World Cup Trophy">
+      </div>
+    </div>
+    <div class="main">
+      <p>The World Cup is almost upon us. First game is on June 14th.  You have come here as you just realized that the United States is not playing.  Wait huh?<br><br>That's right the national team lost to Trinidad and Tobago to fail to qualify. Sad as that is for a country our size you still want to be able to cheer on a team to take home the cup.  You have come to the right place. Take the quiz below to see which team matches up with your style and fandom.<br><br>Lastly there are lots of reasons not to pay attention to the World Cup this year: Russia, FIFA corruption, no US team, FOX's coverage (see Alexi Lalas)... but this is an amazing tournament which the whole world loves every four years.<br><br>
+      Have fun watching one of the best sporting events in the world.</p>
+
+      <!-- Quiz -->
+      <h2 id="quiz" class="quiz">Take the Quiz</h2>
+      <div id="questions">
+        <h4 class="Q1">Do you want to join the fandom of a juggernaut, a good but not great team, or an underdog?</h4>
+          <div class="change">
+            <button class="qform" onclick="getQ2()">Favorite</button><br>
+            <button class="qform" onclick="">Middle Tier</button><br>
+            <button class="qform" onclick="">Underdog with a prayer</button>
+          </div>
+      </div>
+
+      <div id="Q2">
+        <h4 class="qall">Do you prefer total team brillance or a superstar leading the way?</h4>
+          <div class="change">
+          <div class="qall">
+          <button class="qform" onclick="getQ3()">Brillant Team Play</button><br>
+          <button class="qform" onclick="getQ6()">Individual Star</button>
+        </div></div>
+      </div>
+
+      <div id="Q3">
+        <h4 class="qall">Great wine or great beer?</h4>
+          <div class="change">
+          <div class="qall">
+          <button class="qform" onclick="getQ4()">Another carafe of wine, please!</button><br>
+          <button class="qform" onclick="getQ5()">Beer Me!</button>
+        </div></div>
+      </div>
+
+      <div id="Q4">
+        <h4 class="qall">What is your feeling towards royalty (kings and queens)?</h4>
+          <div class="change">
+          <div class="qall">
+          <button class="qform" onclick="getFrance()">Off with their heads!</button><br>
+          <button class="qform" onclick="getSpain()">They can still be around for pictures, tourism, and stuff, I guess.</button>
+        </div></div>
+      </div>
+
+      <div id="Q5">
+        <h4 class="qall">Which 1980/90s TV icon?</h4>
+          <div class="change">
+          <div class="qall">
+          <button class="qform" onclick="getGermany()">David Hasselhoff</button><br>
+          <button class="qform" onclick="getBelgium()">The Smurfs</button>
+        </div></div>
+      </div>
+
+      <div id="Q6">
+        <h4 class="qall">Before you leave home, what is your routine to make sure you look GOOD?</h4>
+          <div class="change">
+          <div class="qall">
+          <button class="qform" onclick="getPortugal()">Stare into the mirror for hours</button><br>
+          <button class="qform" onclick="getQ7()">Have a quiet confindence in yourself</button>
+        </div></div>
+      </div>
+
+      <div id="Q7">
+        <h4 class="qall">Which meal would you prefer?</h4>
+          <div class="change">
+          <div class="qall">
+          <button class="qform" onclick="getArgentina()">Asado (barbeque) with chimichurri and wine</button><br>
+          <button class="qform" onclick="getBrazil()">Feijoada (beef/pork or veggie and bean stew) with rice and a caipirinha</button>
+        </div></div>
+      </div>
+
+    </div>
+
+    <script src="quiz.js"></script>
+  </body>
+
+</html>

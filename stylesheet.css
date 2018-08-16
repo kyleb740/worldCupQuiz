@@ -1,0 +1,84 @@
+body {
+  font-size: 16px;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  margin: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: yellow;
+}
+
+.jones {
+  text-align: center;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.wrapper {
+  background-color: lightgrey;
+  padding: 10px;
+}
+
+.quiz {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.Q1 {
+  text-align: center;
+}
+
+#Q2, #Q3, #Q4, #Q5, #Q6, #Q7 {
+  display: none;
+}
+
+
+.qall {
+  text-align: center;
+}
+
+#questions {
+  border: 2px solid black;
+  border-radius: 5% 5%;
+  padding: 15px;
+  margin-bottom: 50px;
+}
+
+.change {
+  text-align: center
+}
+
+.qform {
+  margin-bottom: 6px;
+  width: 30%;
+}
+
+.teamSelect {
+  text-align: center;
+  font-size: 1.4em;
+}
+
+
+.main {
+    margin-left: 20%; /* Same width as the sidebar + left position in px */
+    margin-right: 20%;
+    font-size: 17px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+    margin-top: 20px;
+}
+
+.trophy {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    max-width: 40%;
+    max-height: 40%;
+}
+
+.flag {
+  background-image: url(img/flags.jpg);
+}
